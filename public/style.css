@@ -1,3 +1,4 @@
+
 .row .promo {
     display: flex;
     justify-content: center;
@@ -32,8 +33,20 @@
     border-bottom: 3px solid gray;
     margin: auto;
 }
-.row .promo .item {
+.row .promo .items {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: column;
+}
+.row .promo .items .item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container .row .services {
+    display: flex;
+    justify-content: center;
+}
+.container .row .services .row {
+    width: 50%;
 }

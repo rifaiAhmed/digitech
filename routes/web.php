@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('/frontend/home');
 });
 Route::get('/our-services', function () {
-    return view('/frontend/services');
+    return view('/frontend/our-services');
 });
 Route::get('/about-us', function () {
     return view('/frontend/about-us');

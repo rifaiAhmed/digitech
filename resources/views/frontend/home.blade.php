@@ -7,12 +7,13 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="theme-color" content="#000000">
-    <title>DIGITECH || E-COMMERCE TUBABA</title>
+    <title>DIGITECH || DIGITAL TECHNOLOGY</title>
     <meta name="description" content="Mobilekit HTML Mobile UI Kit">
     <meta name="keywords" content="bootstrap 5, mobile template, cordova, phonegap, mobile, html" />
     <link rel="icon" type="image/png" href="images/digitech.png" sizes="32x32">
     <link rel="apple-touch-icon" sizes="180x180" href="images/digitech.png">
     <link rel="stylesheet" href="template/css/style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="temnplate/__manifest.json">
 </head>
 
@@ -25,7 +26,7 @@
     <!-- * loader -->
 
     <!-- App Header -->
-    <div class="appHeader bg-light scrolled">
+    <div class="appHeader bg-secondary scrolled">
         <div class="left">
             <a href="#" class="headerButton" data-bs-toggle="offcanvas" data-bs-target="#sidebarPanel">
                 <ion-icon name="menu-outline"></ion-icon>
@@ -59,16 +60,38 @@
     <!-- * Search Component -->
 
     <!-- App Capsule -->
-    <div id="appCapsule">
+    <div id="appCapsule" style="padding-top: 10px;">
 
-        <div class="header-large-title">
-            <h1 class="title">
-                <img src="images/digitech.png" alt="">
-            </h1>
-            <h4 class="subtitle">Welcome to Mobilekit</h4>
+        <div class="section full mb-1">
+            <div class="section-title" style="display: flex; justify-content: center;">
+                <h1 class="title">
+                    <img src="images/digitech.png" alt="">
+                </h1>
+            </div>
+            <!-- carousel full -->
+            <div class="carousel-full splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <img src="images/digitech_banner.png" alt="alt" class="imaged w-100 square">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="images/digitech_banner.png" alt="alt" class="imaged w-100 square">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="images/digitech_banner.png" alt="alt" class="imaged w-100 square">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- * carousel full -->
         </div>
 
-        <div class="section full mt-3 mb-3">
+        <div class="header-large-title">
+            <h4 class="subtitle">OUR SERVICES</h4>
+        </div>
+
+        <div class="section full mt-1 mb-1">
 
             <!-- carousel multiple -->
             <div class="carousel-multiple splide">
@@ -76,57 +99,41 @@
                     <ul class="splide__list">
                         <li class="splide__slide">
                             <div class="card">
-                                <img src="template/img/sample/photo/d1.jpg" class="card-img-top" alt="image">
+                                <img src="images/siakad.png" class="card-img-top" alt="image">
                                 <div class="card-body pt-2">
-                                    <h4 class="mb-0">Progressive web app ready</h4>
+                                    <h4 class="mb-0">SIAKAD</h4>
                                 </div>
                             </div>
                         </li>
                         <li class="splide__slide">
                             <div class="card">
-                                <img src="template/img/sample/photo/d2.jpg" class="card-img-top" alt="image">
+                                <img src="images/e-commerce.png" class="card-img-top" alt="image">
                                 <div class="card-body pt-2">
-                                    <h4 class="mb-0">Reusable components</h4>
+                                    <h4 class="mb-0">E-Commerce</h4>
                                 </div>
                             </div>
                         </li>
                         <li class="splide__slide">
                             <div class="card">
-                                <img src="template/img/sample/photo/d3.jpg" class="card-img-top" alt="image">
+                                <img src="images/konsultan.png" class="card-img-top" alt="image">
                                 <div class="card-body pt-2">
-                                    <h4 class="mb-0">Great for phones & tablets</h4>
+                                    <h4 class="mb-0">Skripsi Konsultan</h4>
                                 </div>
                             </div>
                         </li>
                         <li class="splide__slide">
                             <div class="card">
-                                <img src="template/img/sample/photo/d4.jpg" class="card-img-top" alt="image">
+                                <img src="images/company_profile.png" class="card-img-top" alt="image">
                                 <div class="card-body pt-2">
-                                    <h4 class="mb-0">Change the styles in sass</h4>
+                                    <h4 class="mb-0">Company Profile</h4>
                                 </div>
                             </div>
                         </li>
                         <li class="splide__slide">
                             <div class="card">
-                                <img src="template/img/sample/photo/d6.jpg" class="card-img-top" alt="image">
+                                <img src="images/undangan_digital.png" class="card-img-top" alt="image">
                                 <div class="card-body pt-2">
-                                    <h4 class="mb-0">Sketch source file included</h4>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="splide__slide">
-                            <div class="card">
-                                <img src="template/img/sample/photo/d7.jpg" class="card-img-top" alt="image">
-                                <div class="card-body pt-2">
-                                    <h4 class="mb-0">RTL (Right to Left) Support</h4>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="splide__slide">
-                            <div class="card">
-                                <img src="template/img/sample/photo/d5.jpg" class="card-img-top" alt="image">
-                                <div class="card-body pt-2">
-                                    <h4 class="mb-0">Written with a code structure</h4>
+                                    <h4 class="mb-0">Digital Invitation</h4>
                                 </div>
                             </div>
                         </li>
@@ -138,7 +145,7 @@
         </div>
 
 
-        <div class="section mt-3 mb-3">
+        <div class="section mt-3 mb-1">
             <div class="card">
                 <div class="card-body d-flex justify-content-between align-items-end">
                     <div>
@@ -156,48 +163,192 @@
             </div>
         </div>
 
-        <div class="section mt-3 mb-3">
-            <div class="card">
-                <img src="template/img/sample/photo/wide4.jpg" class="card-img-top" alt="image">
-                <div class="card-body">
-                    <h6 class="card-subtitle">Discover</h6>
-                    <h5 class="card-title">Components</h5>
-                    <p class="card-text">
-                        Reusable components designed for the mobile interface and ready to use.
-                    </p>
-                    <a href="app-components.html" class="btn btn-primary">
-                        <ion-icon name="cube-outline"></ion-icon>
-                        Preview
-                    </a>
+        <div class="header-large-title mt-3">
+            <h2 style="text-align: center;">PROMO IN THIS MONTH</h2>
+        </div>
+        <div class="section row mt-1 mb-1" style="display: flex; justify-content: space-around;">
+            <div class="col-md-3 promo">
+                <div class="col-sm-12 title mt-5">
+                    Web Development Package
+                </div>
+                <div class="col-sm-12 sub-title mt-1">
+                    <ion-icon size="large" name="medkit-outline" style="margin-right: 5px;"></ion-icon>
+                    Company Profile
+                </div>
+                <div class="col-sm-12 price mt-1">
+                    Rp. 5.000.000
+                </div>
+                <div class="col-sm-10 line mt-3 mb-3"></div>
+                <div class="col-sm-12 items mb-5">
+                    <div class="item mb-1">
+                        <div class="col-sm-10">
+                            Free Domain + Hosting 2GB
+                        </div>
+                        <div class="col-sm-2">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="item mb-1">
+                        <div class="col-sm-10">
+                            CRUD Sistem (Administrator)
+                        </div>
+                        <div class="col-sm-2">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="item mb-1">
+                        <div class="col-sm-10">
+                            Standart Fitures and Menu
+                        </div>
+                        <div class="col-sm-2">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="item mb-1">
+                        <div class="col-sm-10">
+                            Free One Month Maintenance
+                        </div>
+                        <div class="col-sm-2">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-sm-10">
+                            Request and Design Content
+                        </div>
+                        <div class="col-sm-2">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 promo">
+                <div class="col-sm-12 title mt-5">
+                    Web Development Package
+                </div>
+                <div class="col-sm-12 sub-title mt-1">
+                    <ion-icon size="large" name="medkit-outline" style="margin-right: 5px;"></ion-icon>
+                    Konsultasi Skripsi
+                </div>
+                <div class="col-sm-12 price mt-1">
+                    Rp. 6.000.000
+                </div>
+                <div class="col-sm-10 line mt-3 mb-3"></div>
+                <div class="col-sm-12 items mb-5">
+                    <div class="item mb-1">
+                        <div class="col-sm-10">
+                            Free Domain + Hosting 2GB
+                        </div>
+                        <div class="col-sm-2">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="item mb-1">
+                        <div class="col-sm-10">
+                            CRUD Sistem (Administrator)
+                        </div>
+                        <div class="col-sm-2">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="item mb-1">
+                        <div class="col-sm-10">
+                            Standart Fitures and Menu
+                        </div>
+                        <div class="col-sm-2">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="item mb-1">
+                        <div class="col-sm-10">
+                            Konsultasi Sampai Sidang (only Weekend)
+                        </div>
+                        <div class="col-sm-2">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="item mb-1">
+                        <div class="col-sm-10">
+                            Include Naskah SoftCopy
+                        </div>
+                        <div class="col-sm-2">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-sm-10">
+                            Request and Design Content
+                        </div>
+                        <div class="col-sm-2">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 promo">
+                <div class="col-sm-12 title mt-5">
+                    Web Development Package
+                </div>
+                <div class="col-sm-12 sub-title mt-1">
+                    <ion-icon size="large" name="medkit-outline" style="margin-right: 5px;"></ion-icon>
+                    SIAKAD
+                </div>
+                <div class="col-sm-12 price mt-1">
+                    Rp. 3.000.000
+                </div>
+                <div class="col-sm-10 line mt-3 mb-3"></div>
+                <div class="col-sm-12 items mb-5">
+                    <div class="item mb-1">
+                        <div class="col-sm-10">
+                            Free Domain + Hosting 2GB
+                        </div>
+                        <div class="col-sm-2">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="item mb-1">
+                        <div class="col-sm-10">
+                            CRUD Sistem (Administrator)
+                        </div>
+                        <div class="col-sm-2">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="item mb-1">
+                        <div class="col-sm-10">
+                            Standart Fitures and Menu
+                        </div>
+                        <div class="col-sm-2">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="item mb-1">
+                        <div class="col-sm-10">
+                            Free One Month Maintenance
+                        </div>
+                        <div class="col-sm-2">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-sm-10">
+                            Request and Design Content
+                        </div>
+                        <div class="col-sm-2">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <div class="section mt-3 mb-3">
-            <div class="card">
-                <img src="template/img/sample/photo/wide2.jpg" class="card-img-top" alt="image">
-                <div class="card-body">
-                    <h6 class="card-subtitle">Discover</h6>
-                    <h5 class="card-title">Pages</h5>
-                    <p class="card-text">
-                        Mobilekit comes with basic pages you may need and use in your projects easily.
-                    </p>
-                    <a href="app-pages.html" class="btn btn-primary">
-                        <ion-icon name="layers-outline"></ion-icon>
-                        Preview
-                    </a>
-                </div>
-            </div>
-        </div>
-
 
         <!-- app footer -->
-        <div class="appFooter">
-            <img src="template/img/logo.png" alt="icon" class="footer-logo mb-2">
+        <div class="appFooter bg-secondary">
+            <img style="height: 60px;" src="images/digitech.png" alt="icon" class="footer-logo mb-2">
             <div class="footer-title">
-                Copyright © Mobilekit <span class="yearNow"></span>. All Rights Reserved.
+                Copyright © Digitech <span class="yearNow"></span>. All Rights Reserved.
             </div>
-            <div>Mobilekit is PWA ready Mobile UI Kit Template.</div>
+            <div>Digital Technology Indonesia.</div>
             Great way to start your mobile websites and pwa projects.
 
             <div class="mt-2">
@@ -229,31 +380,36 @@
 
 
     <!-- App Bottom Menu -->
-    <div class="appBottomMenu">
-        <a href="index.html" class="item active">
+    <div class="appBottomMenu rounded">
+        <a href="#" class="item">
             <div class="col">
-                <ion-icon name="home-outline"></ion-icon>
+                <ion-icon name="folder-open-outline"></ion-icon>
+                <strong>Our Services</strong>
             </div>
         </a>
-        <a href="app-components.html" class="item">
+        <a href="#" class="item">
             <div class="col">
-                <ion-icon name="cube-outline"></ion-icon>
+                <ion-icon name="business-outline"></ion-icon>
+                <strong>About Us</strong>
             </div>
         </a>
-        <a href="page-chat.html" class="item">
+        <a href="/" class="item">
             <div class="col">
-                <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
-                <span class="badge badge-danger">5</span>
+                <div class="action-button large">
+                    <ion-icon name="home-outline"></ion-icon>
+                </div>
             </div>
         </a>
-        <a href="app-pages.html" class="item">
+        <a href="#" class="item">
             <div class="col">
-                <ion-icon name="layers-outline"></ion-icon>
+                <ion-icon name="logo-whatsapp"></ion-icon>
+                <strong>Whatsapp</strong>
             </div>
         </a>
         <a href="#sidebarPanel" class="item" data-bs-toggle="offcanvas">
             <div class="col">
                 <ion-icon name="menu-outline"></ion-icon>
+                <strong>Tab Menu</strong>
             </div>
         </a>
     </div>
@@ -265,13 +421,13 @@
             <!-- profile box -->
             <div class="profileBox">
                 <div class="image-wrapper">
-                    <img src="template/img/sample/avatar/avatar1.jpg" alt="image" class="imaged rounded">
+                    <img src="images/digitech.png" alt="image" class="imaged rounded">
                 </div>
                 <div class="in">
-                    <strong>Julian Gruber</strong>
+                    <strong>DIGITECH</strong>
                     <div class="text-muted">
                         <ion-icon name="location"></ion-icon>
-                        California
+                        Indonesia
                     </div>
                 </div>
                 <a href="#" class="close-sidebar-button" data-bs-dismiss="offcanvas">
@@ -282,43 +438,43 @@
 
             <ul class="listview flush transparent no-line image-listview mt-2">
                 <li>
-                    <a href="index.html" class="item">
+                    <a href="/" class="item">
                         <div class="icon-box bg-primary">
                             <ion-icon name="home-outline"></ion-icon>
                         </div>
                         <div class="in">
-                            Discover
+                            Home
                         </div>
                     </a>
                 </li>
                 <li>
                     <a href="app-components.html" class="item">
                         <div class="icon-box bg-primary">
-                            <ion-icon name="cube-outline"></ion-icon>
+                            <ion-icon name="folder-open-outline"></ion-icon>
                         </div>
                         <div class="in">
-                            Components
+                            Our Services
                         </div>
                     </a>
                 </li>
                 <li>
                     <a href="app-pages.html" class="item">
                         <div class="icon-box bg-primary">
-                            <ion-icon name="layers-outline"></ion-icon>
+                            <ion-icon name="business-outline"></ion-icon>
                         </div>
                         <div class="in">
-                            <div>Pages</div>
+                            <div>About Us</div>
                         </div>
                     </a>
                 </li>
                 <li>
                     <a href="page-chat.html" class="item">
                         <div class="icon-box bg-primary">
-                            <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+                            <ion-icon name="logo-whatsapp"></ion-icon>
                         </div>
                         <div class="in">
-                            <div>Chat</div>
-                            <span class="badge badge-danger">5</span>
+                            <div>Contact Us</div>
+                            <span class="badge badge-danger"></span>
                         </div>
                     </a>
                 </li>
@@ -337,70 +493,7 @@
                     </div>
                 </li>
             </ul>
-
-            <div class="listview-title mt-2 mb-1">
-                <span>Friends</span>
-            </div>
-            <ul class="listview image-listview flush transparent no-line">
-                <li>
-                    <a href="page-chat.html" class="item">
-                        <img src="template/img/sample/avatar/avatar7.jpg" alt="image" class="image">
-                        <div class="in">
-                            <div>Sophie Asveld</div>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="page-chat.html" class="item">
-                        <img src="template/img/sample/avatar/avatar3.jpg" alt="image" class="image">
-                        <div class="in">
-                            <div>Sebastian Bennett</div>
-                            <span class="badge badge-danger">6</span>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="page-chat.html" class="item">
-                        <img src="template/img/sample/avatar/avatar10.jpg" alt="image" class="image">
-                        <div class="in">
-                            <div>Beth Murphy</div>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="page-chat.html" class="item">
-                        <img src="template/img/sample/avatar/avatar2.jpg" alt="image" class="image">
-                        <div class="in">
-                            <div>Amelia Cabal</div>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="page-chat.html" class="item">
-                        <img src="template/img/sample/avatar/avatar5.jpg" alt="image" class="image">
-                        <div class="in">
-                            <div>Henry Doe</div>
-                        </div>
-                    </a>
-                </li>
-            </ul>
         </div>
-        <!-- sidebar buttons -->
-        <div class="sidebar-buttons">
-            <a href="#" class="button">
-                <ion-icon name="person-outline"></ion-icon>
-            </a>
-            <a href="#" class="button">
-                <ion-icon name="archive-outline"></ion-icon>
-            </a>
-            <a href="#" class="button">
-                <ion-icon name="settings-outline"></ion-icon>
-            </a>
-            <a href="#" class="button">
-                <ion-icon name="log-out-outline"></ion-icon>
-            </a>
-        </div>
-        <!-- * sidebar buttons -->
     </div>
     <!-- * App Sidebar -->
 
@@ -409,8 +502,8 @@
         <div class="notification-dialog android-style">
             <div class="notification-header">
                 <div class="in">
-                    <img src="template/img/icon/72x72.png" alt="image" class="imaged w24">
-                    <strong>Mobilekit</strong>
+                    <img src="images/digitech.png" alt="image" class="imaged w24">
+                    <strong>Digitech</strong>
                     <span>just now</span>
                 </div>
                 <a href="#" class="close-button">
@@ -419,10 +512,9 @@
             </div>
             <div class="notification-content">
                 <div class="in">
-                    <h3 class="subtitle">Welcome to Mobilekit</h3>
+                    <h3 class="subtitle">Welcome to Digitech</h3>
                     <div class="text">
-                        Mobilekit is a PWA ready Mobile UI Kit Template.
-                        Great way to start your mobile websites and pwa projects.
+                        Built Your World Digital With Us
                     </div>
                 </div>
             </div>

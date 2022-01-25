@@ -1,0 +1,92 @@
+
+.row .promo {
+    display: flex;
+    justify-content: center;
+    min-height: 100px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px rgba(230, 223, 223, 0.8);
+    margin: 5px 5px;
+    flex-direction: column;
+}
+.row .promo .title {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.row .promo .sub-title {
+    display: flex;
+    justify-content: center;
+    color: springgreen;
+    align-items: center;
+}
+.row .promo .price {
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+}
+.row .promo .line {
+    border-bottom: 3px solid gray;
+    margin: auto;
+}
+.row .promo .items {
+    display: flex;
+    flex-direction: column;
+}
+.row .promo .items .item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container .row .services {
+    display: flex;
+    justify-content: center;
+}
+.container .row .services .row {
+    width: 50%;
+}
+.out {
+    display: flex;
+    justify-content: center;
+}
+.out .list {
+    margin: 5px 0px;
+}
+.out .list .card .card-body .title, .text {
+    display: flex;
+    justify-content: center;
+}
+.image-place {
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-place img {
+    width: 50%;
+}
+.text-image {
+    min-height: 100px;
+    display: flex;
+    align-items: normal;
+    flex-direction: column;
+    justify-content: center;
+}
+.text-image h2 {
+    display: flex;
+    align-items: center;
+}
+.text-image p {
+    text-align: justify;
+    margin: 0 3px 0 0;
+}
+@media only screen and (max-width: 600px) {
+    .image-place img {
+        width: 100%;
+    }
+  }

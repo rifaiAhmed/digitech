@@ -4,7 +4,7 @@
 <!-- App Capsule -->
     <div id="appCapsule">
 
-        <div class="section full mb-1">
+        <div class="section full mb-1 mt-1">
             <!-- carousel full -->
             <div class="carousel-full splide">
                 <div class="splide__track">

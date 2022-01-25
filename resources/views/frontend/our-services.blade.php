@@ -5,26 +5,54 @@
 
 <div id="appCapsule">
     <div class="section full">
-        <div class="row">
-            <div class="col-5">
+        <div class="row out">
+            <div class="col-4 list">
                 <div class="card product-card">
                     <div class="card-body">
-                        <img src="template/img/sample/photo/product1.jpg" class="image" alt="product image">
-                        <h2 class="title">Apple</h2>
-                        <p class="text">1 kg</p>
-                        <div class="price">$ 1.50</div>
-                        <a href="#" class="btn btn-sm btn-primary btn-block">ADD TO CART</a>
+                        <img src="images/siakad.png" class="image" alt="product image">
+                        <h2 class="title">SIAKAD</h2>
+                        <p class="text">Progressive Web App</p>
+                        <a href="#" class="btn btn-sm btn-primary btn-block">KONSULTASI</a>
                     </div>
                 </div>
             </div>
-            <div class="col-5">
+            <div class="col-4 list">
                 <div class="card product-card">
                     <div class="card-body">
-                        <img src="template/img/sample/photo/product4.jpg" class="image" alt="product image">
-                        <h2 class="title">Beetroot</h2>
-                        <p class="text">1 piece</p>
-                        <div class="price">$ 4.99</div>
-                        <a href="#" class="btn btn-sm btn-primary btn-block">ADD TO CART</a>
+                        <img src="images/e-commerce.png" class="image" alt="product image">
+                        <h2 class="title">E-Commerce</h2>
+                        <p class="text">Progressive Web App</p>
+                        <a href="#" class="btn btn-sm btn-primary btn-block">KONSULTASI</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 list">
+                <div class="card product-card">
+                    <div class="card-body">
+                        <img src="images/konsultan.png" class="image" alt="product image">
+                        <h2 class="title">Project Skripsi</h2>
+                        <p class="text">Progressive Web App</p>
+                        <a href="#" class="btn btn-sm btn-primary btn-block">KONSULTASI</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 list">
+                <div class="card product-card">
+                    <div class="card-body">
+                        <img src="images/company_profile.png" class="image" alt="product image">
+                        <h2 class="title">Company Profil</h2>
+                        <p class="text">Progressive Web App</p>
+                        <a href="#" class="btn btn-sm btn-primary btn-block">KONSULTASI</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 list">
+                <div class="card product-card">
+                    <div class="card-body">
+                        <img src="images/undangan_digital.png" class="image" alt="product image">
+                        <h2 class="title">Digital Invitation</h2>
+                        <p class="text">Progressive Web App</p>
+                        <a href="#" class="btn btn-sm btn-primary btn-block">KONSULTASI</a>
                     </div>
                 </div>
             </div>

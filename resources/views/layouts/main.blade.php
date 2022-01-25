@@ -73,7 +73,7 @@
                 <strong>Our Services</strong>
             </div>
         </a>
-        <a href="#" class="item">
+        <a href="/about-us" class="item">
             <div class="col">
                 <ion-icon name="business-outline"></ion-icon>
                 <strong>About Us</strong>
@@ -144,7 +144,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="app-pages.html" class="item">
+                    <a href="/about-us" class="item">
                         <div class="icon-box bg-primary">
                             <ion-icon name="business-outline"></ion-icon>
                         </div>

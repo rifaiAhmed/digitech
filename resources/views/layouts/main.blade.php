@@ -86,7 +86,7 @@
                 </div>
             </div>
         </a>
-        <a href="#" class="item">
+        <a href="https://wa.me/6285709471660" target="_blank" class="item">
             <div class="col">
                 <ion-icon name="logo-whatsapp"></ion-icon>
                 <strong>Whatsapp</strong>
@@ -154,7 +154,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="page-chat.html" class="item">
+                    <a href="https://wa.me/6285709471660" target="_blank" class="item">
                         <div class="icon-box bg-primary">
                             <ion-icon name="logo-whatsapp"></ion-icon>
                         </div>

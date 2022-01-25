@@ -275,7 +275,7 @@
                 <a href="#" class="btn btn-icon btn-sm btn-instagram">
                     <ion-icon name="logo-instagram"></ion-icon>
                 </a>
-                <a href="#" class="btn btn-icon btn-sm btn-whatsapp">
+                <a href="https://wa.me/6285709471660" target="_blank" class="btn btn-icon btn-sm btn-whatsapp">
                     <ion-icon name="logo-whatsapp"></ion-icon>
                 </a>
                 <a href="#" class="btn btn-icon btn-sm btn-secondary goTop">

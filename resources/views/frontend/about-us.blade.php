@@ -40,13 +40,12 @@
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#accordion1">
-                                    Is this PWA?
+                                    Apakah Digitech Profesional?
                                 </button>
                             </h2>
                             <div id="accordion1" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
                                 <div class="accordion-body">
-                                    Yes, Mobilekit is PWA ready html template. You can build mobile websites and progressive web
-                                    apps with it.
+                                    iya kami profesional, bahkan kalian bisa membayar setelah project selesai dibuat tanpa ada uang diawal.
                                 </div>
                             </div>
                         </div>
@@ -54,12 +53,12 @@
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#accordion2">
-                                    What CSS framework this theme use?
+                                    Bahasa pemrograman apa yang kalian pakai untuk membangun sistem nantinya?
                                 </button>
                             </h2>
                             <div id="accordion2" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
                                 <div class="accordion-body">
-                                    We are using Bootstrap 5.
+                                    untuk saat ini kami menggunakan PHP dan Javascript.
                                 </div>
                             </div>
                         </div>
@@ -67,12 +66,12 @@
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#accordion3">
-                                    What can i do with this template?
+                                    apakah nantinya sistem sudah menggunkan konsep OOP dan MVC?
                                 </button>
                             </h2>
                             <div id="accordion3" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
                                 <div class="accordion-body">
-                                    You can make mobile websites or progressive web apps for mobile devices.
+                                    Tentu saja dalam pembuatan sistem kami menggunakan bantuan framework sehingga sistem yang dibangun sangatlah terstruktur.
                                 </div>
                             </div>
                         </div>
@@ -80,12 +79,12 @@
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#accordion4">
-                                    Is this WordPress theme?
+                                    Apakah kelebihannya jika kami menggunakan jasa Digitech?
                                 </button>
                             </h2>
                             <div id="accordion4" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
                                 <div class="accordion-body">
-                                    No. It is a html template. Mobilekit build with HTML, CSS, Javascript and some love.
+                                    Kami akan membuat sitem seresponsive mungkin untuk semua device, serta sistem yang dibangun akan selalu diserta sistem adminstrator untuk mengelolanya.
                                 </div>
                             </div>
                         </div>
@@ -96,11 +95,11 @@
                         <li>
                             <div class="item">
                                 <div class="imageWrapper">
-                                    <img src="template/img/sample/avatar/avatar1.jpg" alt="image" class="imaged w64">
+                                    <img src="images/rifai.jpeg" alt="image" class="imaged w64">
                                 </div>
                                 <div class="in">
                                     <div>
-                                        Rickie Baroch
+                                        <a href="https://rifaiahmed.github.io/" target="_blank">Ahmed Rifa'i</a>
                                         <div class="text-muted">CEO</div>
                                     </div>
                                 </div>
@@ -109,11 +108,11 @@
                         <li>
                             <div class="item">
                                 <div class="imageWrapper">
-                                    <img src="template/img/sample/avatar/avatar2.jpg" alt="image" class="imaged w64">
+                                    <img src="images/rifai.jpeg" alt="image" class="imaged w64">
                                 </div>
                                 <div class="in">
                                     <div>
-                                        Erika Mateo
+                                        <a href="https://rifaiahmed.github.io/" target="_blank">Ahmed Rifa'i</a>
                                         <div class="text-muted">Designer</div>
                                     </div>
                                 </div>
@@ -122,11 +121,11 @@
                         <li>
                             <div class="item">
                                 <div class="imageWrapper">
-                                    <img src="template/img/sample/avatar/avatar4.jpg" alt="image" class="imaged w64">
+                                    <img src="images/rifai.jpeg" alt="image" class="imaged w64">
                                 </div>
                                 <div class="in">
                                     <div>
-                                        Emelda Scandroot
+                                        <a href="https://rifaiahmed.github.io/" target="_blank">Ahmed Rifa'i</a>
                                         <div class="text-muted">Developer</div>
                                     </div>
                                 </div>
@@ -203,7 +202,7 @@
             <a href="#" class="btn btn-icon btn-sm btn-instagram">
                 <ion-icon name="logo-instagram"></ion-icon>
             </a>
-            <a href="#" class="btn btn-icon btn-sm btn-whatsapp">
+            <a href="https://wa.me/6285709471660" class="btn btn-icon btn-sm btn-whatsapp">
                 <ion-icon name="logo-whatsapp"></ion-icon>
             </a>
             <a href="#" class="btn btn-icon btn-sm btn-secondary goTop">
